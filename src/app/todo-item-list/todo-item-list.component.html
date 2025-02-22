@@ -1,0 +1,8 @@
+<div class="container">
+    <input [(ngModel)]="this.inputValue" placeholder="Enter data for ToDo item" />
+    <button (click)="createTask()">Create a Task</button>
+</div>
+
+<div *ngFor="let todoitem of this.items">
+    <app-todo-item [item]="todoitem" (remove)="removeTask($event)"></app-todo-item>
+</div>

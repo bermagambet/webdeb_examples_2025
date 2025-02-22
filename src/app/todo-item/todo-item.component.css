@@ -1,0 +1,33 @@
+.element {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.item {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ribbon {
+    display: flex;
+    grid-area: 2px;
+}
+
+.completed {
+    color: green
+}
+
+.completed button {
+    color: green
+}
+
+.not-completed {
+    color: red;
+}
+
+.not-completed button {
+    color: red;
+}

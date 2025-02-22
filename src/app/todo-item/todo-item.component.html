@@ -1,0 +1,13 @@
+<div class="element">
+    <div class="item" [ngClass]="this.item.isCompleted ? 'completed' : 'not-completed'">
+        {{ this.item.id + ". " }}
+        <div *ngIf="this.isEditing; then inputField else justName"></div>
+        <ng-template #justName>{{ this.item.name }}</ng-template>
+        <ng-template #inputField><input [(ngModel)]="this.item.name" placeholder="Enter a new name" /></ng-template>
+        <div class="ribbon">
+            <button (click)="removeTask()">remove</button>
+            <button (click)="changeState()">change state</button>
+            <button (click)="startEdit()">edit</button>
+        </div>
+    </div>
+</div>
