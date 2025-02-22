@@ -1,0 +1,15 @@
+.item-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 8px;
+}
+
+.item-card {
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
