@@ -65,9 +65,12 @@ In summary, I would recommend to sit and complete this lab again, from scratch. 
 1. https://javascript.info/ - till section Data Types, inclusively (not 2.5 points, but section/раздел Data Types). Collect all the solutions in one folder and push it to your git repo
 
 2. Create a simple to-do list app with all working actions.
-   2.1 Adding new item
-   2.2 Marking as “done” (checkbox)
-   2.3 Deleting item
+
+2.1 Adding new item
+
+2.2 Marking as “done” (checkbox)
+
+2.3 Deleting item
 
 # Lab 4 - Angular
 
@@ -85,10 +88,14 @@ My advice: try to make ToDo List using Angular, it will be enough.
 
 2. Create a new Angular project
 
-2.1. Implement the component “Products”, which shows the list of products.  
+2.1. Implement the component “Products”, which shows the list of products.
+
 2.2 Each product must have the following properties: image, name, description, rating.
+
 2.3 Each product should be linked to a real item from kaspi.kz. Must be at least 10 products.
+
 2.4 Buttons “Share” for each product, by clicking, the user should be redirected to Whatsapp or Telegram with the link to the product
+
 2.5 Optional: Add product image gallery, minimum 3 images.
 
 # Lab 5 - Angular 2
@@ -104,7 +111,11 @@ Again, a quick and easy task for you - ToDo List using Angular. Make every task 
 1. Continue your project.
 
 1.1 You will have such a hierarchy: category => product_items
+
 1.2 Create 4 categories where each of which has 5 products
+
 1.3 Create 3 components: App, ProductList, ProductItem
+
 1.4 The app component must show a list of categories. When any category is selected, products of this category should be rendered. To show this list, you have to use ProductList and ProductItem components.
+
 1.5 ProductItem objects must be removable. Will have an extra one more field - likes, when clicking the “Like” button, the number of likes should be increased
